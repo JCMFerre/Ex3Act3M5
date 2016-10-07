@@ -10,7 +10,7 @@ package ex3_act3_m5;
  * @author Reskitow
  */
 public class Formulario extends javax.swing.JFrame {
-    
+
     private int contador = 0;
 
     /**
@@ -97,7 +97,7 @@ public class Formulario extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Utils ut = new Utils();
-        if (contador == 0){
+        if (contador == 0) {
             this.setSize(this.getWidth(), this.getHeight() + 16);
         }
         jLabel2.setText(ut.textoAMostrar(jTextField1.getText().toString()));

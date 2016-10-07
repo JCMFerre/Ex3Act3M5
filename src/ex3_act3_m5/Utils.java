@@ -30,14 +30,14 @@ public class Utils {
         if (comprobarEntrada(entrada)) {
             int valor = calcularMatricula(entrada);
             if (valor == -6000) {
-                return "Més de 1000 UF's... Potser es masa no?";
+                return "Més de 1000 UF's... Potser és massa no?";
             } else {
                 int preu = Integer.valueOf(entrada);
                 return "El valor de la matricula per " + ((preu == 1) ? preu + " UF" : preu + " UF's") + " és "
                         + valor + "€.";
             }
         } else {
-            return "No has introduit un valor valid.";
+            return "No has introduït un valor vàlid.";
         }
     }
 
